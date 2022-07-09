@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tmts",
+  "version": "${version}",
+
+  "name": "Too Hard Too Survive Mod",
+  "description": "It is for you that want minecraft more harder",
+  "authors": [
+    "Unongmilk"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tmts/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.unongmilk.main.Main"
+    ]
+  },
+  "mixins": [
+    "tmts.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
